@@ -1,0 +1,36 @@
+
+/* Existing styles from the uploaded CSS file will be maintained */
+
+/* Custom Styling for Improved Contrast and Dropdowns */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f0f8ff;
+}
+header {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+main {
+    padding: 10px;
+}
+.control-section {
+    margin-bottom: 20px;
+    border: 2px solid #4caf50; /* Green border for contrast */
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.dropdown {
+    margin: 5px 0;
+}
+#summary-box, #suggestion-box {
+    margin-bottom: 20px;
+    border: 2px solid #4caf50;
+    padding: 10px;
+    border-radius: 5px;
+}

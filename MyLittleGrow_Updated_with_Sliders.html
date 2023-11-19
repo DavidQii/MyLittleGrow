@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Little Grow</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking the CSS stylesheet -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js Library -->
+</head>
+<body>
+    <header>
+        <h1>My Little Grow</h1>
+    </header>
+    <main>
+        <section id="summary-box">
+    <h2>Growth Development Summary</h2>
+    <p id="summary-content">Select an age group to see the summary.</p>
+</section>
+<section id="suggestion-box">
+    <h2>Nutrition and Activities Advice</h2>
+    <p id="suggestion-content">Select an age group for suggestions.</p>
+</section>
+<div class="control-section">
+    <label for="gender-select">Gender:</label>
+    <select id="gender-select" class="dropdown">
+        <option value="0">Boy</option>
+        <option value="1">Girl</option>
+    </select>
+    <label for="age-group-select">Age Group:</label>
+    <select id="age-group-select" class="dropdown">
+        <option value="0">Up to 2 years</option>
+        <option value="1">2 to 5 years</option>
+    </select>
+    <label for="metric-select">Metric:</label>
+    <select id="metric-select" class="dropdown">
+        <option value="0">Height</option>
+        <option value="1">Weight</option>
+    </select>
+</div>
+
+        <div class="chart-container">
+            <canvas id="growth-chart"></canvas>
+        </div>
+        
+    </main>
+    <script src="script.js"></script> <!-- Linking the JavaScript file -->
+</body>
+</html>
